@@ -1,0 +1,248 @@
+body{
+    margin: 0%;
+}.nav{
+    display: flex;
+    width: 100%;
+    height: 80px;
+
+    padding-top:10px ;
+    background-color: rgba(255, 0, 0, 0.1);
+    
+     
+}
+.btn ul li a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color:#00008b;
+   font-weight: 600;
+
+}
+.btn ul li{
+    list-style-type: none;
+    
+    
+}
+.btn{
+    margin-left: 600px;
+    margin-top: 10px;
+}
+.nav img{
+    height: 60px;
+    width: 205px;
+    text-align: center;
+     margin-left: 200px;
+}
+.btn ul{
+    display: flex;
+    
+}
+input{
+    height: 35px;
+    width: 300px;
+    border-radius: 20px;
+    margin-top:10px ;
+}
+section{
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+}
+.form{
+    display: flex;
+   
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.form .left h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#00008b;
+}
+.form .right h2{
+    text-align: center;
+    
+}
+.form .right{
+    margin-left: 200px;
+}
+p img{
+    width: 30px;
+    height: 30px;
+}
+p span{
+   padding-top: 2px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 20px;
+   color:#00008b
+
+}
+p{
+    display: flex;
+    margin: 0%;
+}
+.ne, .pe, .techno {
+    display: flex;
+    margin-top: 20px;
+}
+.ne .mal,.pe .edu, .jaa{
+    margin-left: 20px;
+}
+.skills{
+    margin-top: 20px;
+}
+#Skills{
+    width: 630px;
+}
+select{
+    height: 40px;
+    width: 307px;
+    border-radius: 20px;
+    margin-top: 8px;
+}
+.resume {
+    margin-top: 20px;
+}
+.resume input{
+    width: 320px;
+    border-radius: 0;
+}
+
+.form1{
+    border: 0px solid black;
+   
+   margin-left: 30px;   
+   padding-top: 20px; 
+
+}
+.rit{
+    background-color: #5487c54d;
+    width: 700px;
+    height: 550px;
+    margin-top: 0%;
+    border-radius: 20px;
+    
+}
+.right{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.submit{
+    width:150px;
+    height:50px;
+    background-color: rgb(230, 15, 69);
+    color:white;
+    border:none;
+    border-radius:40px;
+    font-size:18px;
+    cursor:pointer;
+    margin: auto;
+    display: block;
+      text-align: center;
+      
+}
+.submit a{
+    display: inline-block;   /* or block */
+    color: white;
+    text-decoration: none;
+    font-size:20px;
+    padding: 5px;
+    margin-top: 6px;
+}
+.right h2{
+    color: #00008b;
+}
+.f1 img{
+  height:210px;
+  width: 260px;
+
+}
+.footer{
+  background-color: #071d49;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 100px;
+}
+.f1 img{
+  background-color: #f2f2f2;
+  height: 80px;
+  width: 200px;
+  margin-top: 40px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.icon img{
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  margin-left: 15px;
+  border-radius: 50%;
+  margin-top: 5%;
+  padding: 0px;
+}
+.f1, .f3, .f4{
+  width: 20%;
+}
+.f1 h2, .f3 h2, .f4 h2{
+  margin-left: 35px;
+}
+.f1{
+  font-size: 20px;
+  margin-top:  100px;
+  margin-bottom: 90px;
+}
+.f3{
+  font-size: 20px;
+  margin-top:  100px;
+  margin-left: 100px;
+}
+.f4{
+  font-size: 20px;
+  margin-top:  100px;
+}
+.f2{
+   font-size: 20px;
+  margin-top:  100px; 
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background-color: #041536;
+    color: white;
+    align-items: center;
+    padding-bottom: 20px;
+   
+
+
+}
+.add img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.time img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.email img{
+  height: 30px;
+  width: 30px;
+
+  border-radius: 50%;
+}
+.call img{
+  height: 30px;
+  width: 30px;
+
+  border-radius: 50%;
+}
+.add span, .time span, .email span, .call span{
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
