@@ -14,9 +14,9 @@ body {
 .header ul li a {
   text-decoration: none;
   color: #00008b;
-  margin: 0 20px;
-  padding: 18px;
-  font-size: 25px;
+  margin: 0 19.1px;
+  padding: 8px;
+  font-size: 20px;
 
 }
 
@@ -25,19 +25,19 @@ li {
 }
 
 .header img {
-  height: 75px;
-  width: 257px;
-  margin-left: 6px;
-  margin-top: 6px;
+  height: 60px;
+  width: 204px;
+  margin-left: 1px;
+  margin-top: 0px;
 }
 
 .header ul {
   display: flex;
   list-style: none;
-  gap: 29px;
-  margin-right: 9px;
+  gap: 30px;
+  margin-right: 4px;
   padding: 0;
-  margin-top: 26px;
+  margin-top: 15.4px;
 }
 
 .header {
@@ -114,6 +114,7 @@ li {
 
 .containor {
   justify-content: center;
+  padding-top: 120px;
 }
 
 .infobutton {
@@ -228,7 +229,7 @@ li {
 .text {
   color: #f2f2f2;
   font-size: 15px;
-  padding: 8px 12px;
+  padding: 8px 15px;
   position: absolute;
   bottom: 8px;
   width: 100%;
@@ -295,7 +296,7 @@ li {
   width: 180px;
   overflow: hidden;
 
-  margin-left: 350px;
+  margin-left: 250px;
   width: 230px;
 }
 
@@ -303,7 +304,7 @@ li {
   height: 300px;
   width: 180px;
   overflow: hidden;
-  margin-left: 250px;
+  margin-left: 160px;
   width: 230px;
 
 }
@@ -312,7 +313,7 @@ li {
   height: 300px;
   width: 180px;
   overflow: hidden;
-  margin-left: 250px;
+  margin-left: 180px;
   width: 230px;
 
 }
@@ -497,7 +498,7 @@ li {
 }
 
 .ci1 {
-  margin-left: 230px;
+  margin-left: 50px;
   line-height: 30px;
   margin-top: 20px;
 }

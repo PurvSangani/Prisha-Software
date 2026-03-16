@@ -126,7 +126,7 @@ select{
 .right{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.submit{
+.submit button{
     width:150px;
     height:50px;
     background-color: rgb(230, 15, 69);
@@ -140,14 +140,7 @@ select{
       text-align: center;
       
 }
-.submit a{
-    display: inline-block;   /* or block */
-    color: white;
-    text-decoration: none;
-    font-size:20px;
-    padding: 5px;
-    margin-top: 6px;
-}
+
 .right h2{
     color: #00008b;
 }
