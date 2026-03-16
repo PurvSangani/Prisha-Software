@@ -2,14 +2,21 @@
   "version": 2,
   "builds": [
     { "src": "*.html", "use": "@vercel/static" },
-    { "src": "assets/**", "use": "@vercel/static" }
+    { "src": "assets/**", "use": "@vercel/static" },
+    { "src": "aboutus.css", "use": "@vercel/static" },
+    { "src": "blog.css", "use": "@vercel/static" },
+    { "src": "ContactUS.css", "use": "@vercel/static" },
+    { "src": "Career.css", "use": "@vercel/static" },
+    { "src": "services.css", "use": "@vercel/static" },
+    { "src": "style.css", "use": "@vercel/static" },
+    { "src": "header.css", "use": "@vercel/static" }
   ],
   "routes": [
     { "src": "/", "dest": "/index.html" },
     { "src": "/aboutus", "dest": "/aboutus.html" },
-    { "src": "/contactus", "dest": "/ContactUS.html" },
+    { "src": "/ContactUS", "dest": "/ContactUS.html" },
     { "src": "/services", "dest": "/services.html" },
     { "src": "/blog", "dest": "/blog.html" },
-    { "src": "/career", "dest": "/Career.html" }
+    { "src": "/Career", "dest": "/Career.html" }
   ]
 }
