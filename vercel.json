@@ -9,7 +9,12 @@
     { "src": "Career.css", "use": "@vercel/static" },
     { "src": "services.css", "use": "@vercel/static" },
     { "src": "style.css", "use": "@vercel/static" },
-    { "src": "header.css", "use": "@vercel/static" }
+    { "src": "header.css", "use": "@vercel/static" },
+    { "src": "ERP.css", "use": "@vercel/static" },
+    { "src": "wa.css", "use": "@vercel/static" },
+    { "src": "wsh.css", "use": "@vercel/static" },
+    { "src": "as.css", "use": "@vercel/static" },
+    { "src": "dm.css", "use": "@vercel/static" }
   ],
   "routes": [
     { "src": "/", "dest": "/index.html" },
@@ -17,6 +22,11 @@
     { "src": "/ContactUS", "dest": "/ContactUS.html" },
     { "src": "/services", "dest": "/services.html" },
     { "src": "/blog", "dest": "/blog.html" },
-    { "src": "/Career", "dest": "/Career.html" }
+    { "src": "/Career", "dest": "/Career.html" },
+     { "src": "/ERP", "dest": "/ERP.html" },
+      { "src": "/wa", "dest": "/wa.html" },
+       { "src": "/wsh", "dest": "/wsh.html" },
+        { "src": "/as", "dest": "/as.html" },
+         { "src": "/dm", "dest": "/dm.html" }
   ]
 }

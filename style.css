@@ -17,7 +17,26 @@ body {
   margin: 0 19.1px;
   padding: 8px;
   font-size: 20px;
+  position: relative; /* 👈 important */
+}
 
+
+.header ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 3px;
+  background-color: red;
+  transition: width 0.3s ease;
+}
+
+.header ul li a:hover::after {
+  width: 100%;
+}
+.opt a::after{
+  display: none;
 }
 
 li {
@@ -70,7 +89,7 @@ li {
     background: white;
     flex-direction: column;
     padding: 20px;
-    width: 480px;
+    width: 400px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     color: #00008b;
     font-size: 30px;
@@ -78,14 +97,20 @@ li {
 }
 
 .opt p {
-    margin: 10px;
+    margin: 5px;
+    margin-left: 0%;
+}
+.opt p a{
+  /* margin: 30px !important; */
+  font-size: 20px !important;
+  margin-left: 0% !important;
 }
 
 .dropdown:hover .opt {
     display: flex;
 }
 
-.opt p:hover {
+.opt p a:hover {
     color: red;
 }
 
@@ -98,7 +123,7 @@ li {
   margin: 0px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 60px;
-  margin-top: 160px;
+  margin-top: 50px;
   font-weight: bold;
   color: rgb(14, 14, 141);
 }
@@ -679,40 +704,60 @@ h1 {
 .f3,
 .f4 {
   width: 20%;
+    font-weight: 100;
+
 }
 
 .f1 h2,
+.f2 h2,
 .f3 h2,
 .f4 h2 {
   margin-left: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .f1 {
-  font-size: 20px;
-  margin-top: 100px;
+  font-size: 15px;
+  margin-top: 50px;
   margin-bottom: 90px;
+  line-height: 30px;
 }
 
 .f3 {
   font-size: 20px;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 100px;
 }
-
+.f3 ul {
+    margin-top: 20px;
+    margin-left: 30px;
+    line-height: 30px;
+}
 .f4 {
   font-size: 20px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
+.f4 ul {
+    margin-top: 20px;
+    margin-left: 30px;
+    line-height: 30px;
+}
+
 
 .f2 {
   font-size: 20px;
-  margin-top: 100px;
+  margin-top: 50px;
+  line-height: 30px;
 }
+/* .time span{
+  margin-top: 0%;
+  padding-top: 0%;
+} */
 
 footer {
   text-align: center;
   padding: 20px;
-  font-family: Arial, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
   background-color: #041536;
   color: white;
@@ -722,29 +767,59 @@ footer {
 
 
 }
+.add{
+    display: flex;
+    margin-top: 25px;
 
+}
+.add svg{
+    height: 20px;
+    width: 20px;
+    color: red;
+}
 .add img {
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   border-radius: 50%;
 }
-
+.time{
+    display: flex;
+}
+.time svg{
+    height: 20px;
+    width: 20px;
+    color: red;
+}
 .time img {
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   border-radius: 50%;
 }
-
+.email{
+    display: flex;
+}
+.email svg{
+    height: 20px;
+    width: 20px;
+    color: red;
+}
 .email img {
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
 
   border-radius: 50%;
 }
-
+.call{
+    display: flex;
+}
+.call svg{
+    height: 20px;
+    width: 20px;
+    color: red;
+}
 .call img {
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
 
   border-radius: 50%;
 }
@@ -753,6 +828,7 @@ footer {
 .time span,
 .email span,
 .call span {
-  padding-bottom: 5px;
-  margin-bottom: 5px;
+  margin-top: -5px;
+  margin-left: 5px;
+  line-height: 35px;
 }
