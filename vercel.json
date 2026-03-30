@@ -14,7 +14,9 @@
     { "src": "wa.css", "use": "@vercel/static" },
     { "src": "wsh.css", "use": "@vercel/static" },
     { "src": "as.css", "use": "@vercel/static" },
-    { "src": "dm.css", "use": "@vercel/static" }
+    { "src": "dm.css", "use": "@vercel/static" },
+    { "src": "aid.css", "use": "@vercel/static" },
+    { "src": "footer.css", "use": "@vercel/static" },
   ],
   "routes": [
     { "src": "/", "dest": "/index.html" },
@@ -28,5 +30,6 @@
        { "src": "/wsh", "dest": "/wsh.html" },
         { "src": "/as", "dest": "/as.html" },
          { "src": "/dm", "dest": "/dm.html" }
+         { "src": "/aid", "dest": "/aid.html" }
   ]
 }
