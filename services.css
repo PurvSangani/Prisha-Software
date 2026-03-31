@@ -74,6 +74,20 @@
     box-shadow: black;
     box-shadow: rgba(0, 0, 0, 0.149) 10px 10px 10px;
     line-height: 25px;
+    animation-name: temp1ani;
+    animation-duration: 0.1s;
+}
+@keyframes temp1ani{
+    from{
+        height: 30px;
+        width: 30px;
+        padding-left: 20px;
+        padding-top: 60px;
+    }
+    to{
+        height: 380px; 
+         width: 320px;
+    }
 }
 
 .oe2 img,
@@ -107,6 +121,8 @@ p {
     box-shadow: rgba(0, 0, 0, 0.149) 10px 10px 10px;
     margin-top: 121px;
     line-height: 25px;
+    animation-name: temp1ani;
+    animation-duration: 0.1s;
 }
 
 .oe3 {
@@ -119,6 +135,9 @@ p {
     box-shadow: rgba(0, 0, 0, 0.149) 10px 10px 10px;
     margin-left: 20px;
     margin-top: 350px;
+    animation-name: temp1ani;
+    animation-duration: 0.1s;
+
 }
 
 .oe3 img,

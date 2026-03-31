@@ -14,9 +14,10 @@ body {
 .header ul li a {
   text-decoration: none;
   color: #00008b;
-  margin: 0 19.1px;
-  padding: 8px;
-  font-size: 20px;
+  margin-left:  20px;
+  margin-top: 5px;
+  padding: 31px;
+  font-size: 24px;
   position: relative; /* 👈 important */
 }
 
@@ -89,7 +90,7 @@ li {
     background: white;
     flex-direction: column;
     padding: 20px;
-    width: 400px;
+    width: 550px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     color: #00008b;
     font-size: 30px;
@@ -97,12 +98,12 @@ li {
 }
 
 .opt p {
-    margin: 5px;
+    margin: 11px;
     margin-left: 0%;
 }
 .opt p a{
   /* margin: 30px !important; */
-  font-size: 20px !important;
+  font-size: 25px !important;
   margin-left: 0% !important;
 }
 
@@ -191,7 +192,6 @@ li {
   box-sizing: border-box
 }
 
-/* Slideshow container */
 
 
 .swiper {
@@ -321,7 +321,7 @@ li {
   width: 180px;
   overflow: hidden;
 
-  margin-left: 250px;
+  margin-left: 350px;
   width: 230px;
 }
 
@@ -329,7 +329,7 @@ li {
   height: 300px;
   width: 180px;
   overflow: hidden;
-  margin-left: 160px;
+  margin-left: 250px;
   width: 230px;
 
 }
@@ -338,7 +338,7 @@ li {
   height: 300px;
   width: 180px;
   overflow: hidden;
-  margin-left: 180px;
+  margin-left: 250px;
   width: 230px;
 
 }
@@ -429,7 +429,18 @@ li {
 
 .opimage img {
   height: 810px;
+  animation-name: opimageani;
+  animation-duration: 1s;
 }
+@keyframes opimageani{
+  from{
+    margin-left: 100px;
+  }
+  to{
+    margin-left: 10px;
+  }
+}
+
 
 .sg .s1 {
   fill: red;
@@ -627,7 +638,7 @@ h1 {
   /* two equal columns */
   align-items: center;
   padding: 0%;
-
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 0%;
 
 }
@@ -637,7 +648,8 @@ h1 {
   flex-direction: column;
 
   padding-top: 100px;
-  margin-left: 100px;
+  margin-left: 230px;
+  
 }
 
 .cess-subtitle {
@@ -650,22 +662,40 @@ h1 {
 .cess-left h1 {
   color: #0d2c6c;
   margin-top: 0%;
+  line-height: 60px;
 }
 
 .cess-left h1 span {
   color: rgb(231, 71, 111);
 }
-
+.cess-left button{
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 230px;
+}
 .cess-description {
   font-size: 25px;
   color: #999393;
   margin-top: 0px;
+  line-height: 40px;
 }
 
 .cesss-right {
-  margin-top: 180px;
+  padding-top: 200px;
 }
+.cess-right img{
+  animation-name: photoani;
+  animation-duration: 0.5s;
+  margin-top: 200px;
+}
+@keyframes photoani{
+  from{
+    margin-left: 200px;
+  }
+  to{
 
+  }
+}
 .f1 img {
   height: 210px;
   width: 260px;

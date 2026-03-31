@@ -54,6 +54,18 @@ body{
     margin-top: 180px;
     margin-left: 50px;
     border-radius: 10px;
+    transform: scale(1); 
+    transform-origin: center center; 
+    animation: infoani 0.5s ;
+}
+@keyframes infoani {
+      from {
+        
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
 }
 .foe{
     display: flex;
@@ -74,6 +86,7 @@ body{
 }
 .foe1 .foi1, .foi2, .foi3, .foi4, .foi5, .foi6{
     display: flex;
+    
 }
 .foi5{
     margin-top: 4px;
@@ -226,6 +239,9 @@ body{
       border-radius: 10px; 
       margin-left: 30px;
       margin-top: 110px;
+      transform: scale(1); 
+    transform-origin: center center; 
+    animation: infoani 0.5s ;
 
 }
 .mesolve .esolve .esolve21 p{
@@ -239,6 +255,9 @@ body{
     border-radius: 10px;
     margin-top: 30px;
     width: 550px;
+    transform: scale(1); 
+    transform-origin: center center; 
+    animation: infoani 0.5s ;
 }
 .mesolve .esolve .esolve1 .esolve12{
     margin-top: 80px;
@@ -246,6 +265,9 @@ body{
       background-color: rgba(252,231,243,1);
        border-radius: 10px;
        width: 550px;
+       transform: scale(1); 
+    transform-origin: center center; 
+    animation: infoani 0.5s ;
 }
 .mesolve .esolve .esolve2 .esolve22{
     background-color: rgba(252,231,243,1);
@@ -254,6 +276,9 @@ body{
     margin-top: 70px;
     width: 591px;
     margin-left: 30px;
+    transform: scale(1); 
+    transform-origin: center center; 
+    animation: infoani 0.5s ;
 }
 .mesolve .esolve .esolve2 .esolve22 p{
    margin-left: 33px;

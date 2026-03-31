@@ -54,6 +54,18 @@ body{
     margin-top: 150px;
     margin-left: 50px;
     border-radius: 10px;
+      transform: scale(1); 
+    transform-origin: center center; 
+    animation: infoani 0.5s ; 
+}
+@keyframes infoani {
+      from {
+        
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
 }
 .foe{
     display: flex;
@@ -144,6 +156,9 @@ body{
 .icon11, .icon22, .icon33, .icon44, .icon55{
     text-align: center;
     width: 405px;
+     transform: scale(1); 
+    transform-origin: center center; 
+    animation: infoani 0.5s ; 
 }
 .icon11{
     margin-left: -55px;
@@ -214,6 +229,9 @@ body{
       border-radius: 10px; 
       margin-left: 70px;
       margin-top: 150px;
+       transform: scale(1); 
+    transform-origin: center center; 
+    animation: infoani 0.5s ; 
 
 }
 .mesolve .esolve .esolve2 p{
@@ -227,6 +245,9 @@ body{
     border-radius: 10px;
     margin-top: 30px;
     width: 591px;
+     transform: scale(1); 
+    transform-origin: center center; 
+    animation: infoani 0.5s ; 
 }
 .mesolve .esolve .esolve1 .esolve12{
     margin-top: 100px;
@@ -234,6 +255,9 @@ body{
       background-color: rgba(252,231,243,1);
        border-radius: 10px;
        width: 591px;
+        transform: scale(1); 
+    transform-origin: center center; 
+    animation: infoani 0.5s ; 
 }
 .mesolve .esolve .esolve1 .esolve11 p{
     margin-left: 20px;
