@@ -14,10 +14,9 @@ body {
 .header ul li a {
   text-decoration: none;
   color: #00008b;
-  margin-left:  20px;
-  margin-top: 5px;
-  padding: 31px;
-  font-size: 24px;
+  margin: 0 19.1px;
+  padding: 8px;
+  font-size: 20px;
   position: relative; /* 👈 important */
 }
 
@@ -90,7 +89,7 @@ li {
     background: white;
     flex-direction: column;
     padding: 20px;
-    width: 550px;
+    width: 400px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     color: #00008b;
     font-size: 30px;
@@ -98,12 +97,12 @@ li {
 }
 
 .opt p {
-    margin: 11px;
+    margin: 5px;
     margin-left: 0%;
 }
 .opt p a{
   /* margin: 30px !important; */
-  font-size: 25px !important;
+  font-size: 20px !important;
   margin-left: 0% !important;
 }
 
@@ -321,7 +320,7 @@ li {
   width: 180px;
   overflow: hidden;
 
-  margin-left: 350px;
+  margin-left: 250px;
   width: 230px;
 }
 
@@ -329,7 +328,7 @@ li {
   height: 300px;
   width: 180px;
   overflow: hidden;
-  margin-left: 250px;
+  margin-left: 160px;
   width: 230px;
 
 }
@@ -338,7 +337,7 @@ li {
   height: 300px;
   width: 180px;
   overflow: hidden;
-  margin-left: 250px;
+  margin-left: 180px;
   width: 230px;
 
 }
